@@ -1,0 +1,15 @@
+﻿.footer {
+    height: 50px;
+    border-radius: 5px;
+    display: block;
+    padding: 8px;
+    border: 3px solid;
+    border-color: #000000;
+    border-block-color: #ff6a00;
+    background: linear-gradient(#808080, #4b4747, #808080 );
+    text-align: center;
+    color: #d3d3d3;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #4b4747;
+    font-size: 20px;
+}

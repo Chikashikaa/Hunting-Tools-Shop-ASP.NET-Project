@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HTSP</title>
+    <style>
+    </style>
+    <link rel="stylesheet" href="css/menubar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/centergroup.css">
+    <link rel="stylesheet" href="css/footerbar.css">
+    <link rel="stylesheet" href="css/searchbar.css">
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="css/item.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+    <header>
+        <!-- Верхівка сайту -->
+        <div class="header-bg">
+            <div>
+                <b id="centertitle">HTSP</b>
+            </div>
+            <ul class="navbar">
+                <li class="navbarlineleft"><a class="navbarblock" , href="/">Головна</a></li>
+                <li class="navbarlineleft"><a class="navbarblock" , href="/catalog.html">Товари</a></li>
+                <li class="navbarlineleft"><a class="navbarblock" , href="/about.html">Про нас</a></li>
+                <li class="navbarlineright"><a class="navbarblock" , href="/basket.html">Кошик</a></li>
+                <li class="navbarlineright"><a class="navbarblock" , href="/login.html">Ввійти</a></li>
+            </ul>
+        </div>
+    </header>
+    <center style="height: 175%">
+        <div>
+            <div class="column1">
+                <div class="column">
+                    <!-- Елемент для пошуку товарів -->
+                    <input type="text" placeholder="Search.." class="textbar">
+                    <div>
+                        <form name="form1" id="form1" action="">
+                            <div>
+                                Тип продукту:
+                            </div>
+                            <div class="selectbar" style="width: 15%">
+                                <select name="type" id="type">
+                                    <option value="" selected="selected">Тип</option>
+                                </select>
+                            </div>
+                            <div>
+                                Виробник:
+                            </div>
+                            <div class="selectbar" style="width: 25%">
+                                <select name="maker" id="maker">
+                                    <option value="" selected="selected">Виробник</option>
+                                </select>
+                            </div>
+                            <div>
+                                <input name="minprice" type="text" placeholder="Мінімальна ціна.." class="textbar">
+                                <input name="maxprice" type="text" placeholder="Максимальна ціна.." class="textbar">
+                            </div>
+                            <input type="submit" value="ПОШУК" class="textbar">
+                        </form>
+                    </div>
+                </div>
+                <div class="column">
+
+                </div>
+            </div>
+            <div class="column2">
+                <div>
+                    <div class="sector">
+                        <!-- Елемент каталогу -->
+                        <catalog>
+                            <ul class="catalog">
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-item">
+                                        <img height="300" width="350" src="">
+                                        <div class="product-list">
+                                            <h3>Назва товару</h3>
+                                            <span class="price">Ціна</span>
+                                            <div>
+                                                <a href="/article.html" class="button">Переглянути</a>
+                                            </div>
+                                            <a href="" class="button">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </catalog>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+    <section class="footer">
+        <div>
+            <a> Footer Test </a>
+        </div>
+    </section>
+</body>
+</html>

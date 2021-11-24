@@ -1,0 +1,45 @@
+﻿.column1 {
+    float: left;
+    width: 25%;
+}
+
+.column2 {
+    float: left;
+    width: 74%;
+    margin-left: 1%;
+}
+
+.column {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #808080, #4b4747, #808080);
+    border-radius: 10px;
+    border: 3px solid;
+    border-block-color: #ff6a00;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.sector {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #808080, #4b4747, #808080);
+    border-radius: 10px;
+    border: 3px solid;
+    border-block-color: #ff6a00;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+}
+
+#textleft {
+    text-align: left;
+}

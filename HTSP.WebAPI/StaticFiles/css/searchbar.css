@@ -1,0 +1,20 @@
+﻿.textbar {
+    margin-top:10px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-block-color: #ff6a00;
+    background: #808080;
+    color: black;
+}
+.selectbar {
+    border: 3px solid;
+    border-block-color: #ff6a00;
+    background: #808080;
+    color: black;
+}
+#type{
+    width: 100%;
+}
+#maker{
+    width: 100%;
+}

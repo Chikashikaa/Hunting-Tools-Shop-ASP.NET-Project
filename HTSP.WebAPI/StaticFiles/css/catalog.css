@@ -1,0 +1,8 @@
+﻿ul.catalog li {
+    width: 310px;
+    display: inline-block; 
+    text-align: center; 
+    background-color: #282828;
+    border-radius: 10px; 
+    border: 2px solid #585858;
+}

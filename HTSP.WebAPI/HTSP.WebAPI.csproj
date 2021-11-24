@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="StaticFiles\fonts\**" />
+    <Content Remove="StaticFiles\fonts\**" />
+    <EmbeddedResource Remove="StaticFiles\fonts\**" />
+    <None Remove="StaticFiles\fonts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="StaticFiles\about.html" />
+    <None Remove="StaticFiles\basket.html" />
+    <None Remove="StaticFiles\catalog.html" />
+    <None Remove="StaticFiles\login.html" />
+    <None Remove="StaticFiles\register.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="StaticFiles\basket.html" />
+    <Content Include="StaticFiles\about.html" />
+    <Content Include="StaticFiles\register.html" />
+    <Content Include="StaticFiles\login.html" />
+    <Content Include="StaticFiles\catalog.html" />
+    <Content Include="StaticFiles\article.html" />
+    <Content Include="StaticFiles\x_default.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HTSP.Application\HTSP.Application.csproj" />
+    <ProjectReference Include="..\HTSP.Interaction\HTSP.Interaction.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+  </ItemGroup>
+
+</Project>

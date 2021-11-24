@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTSP.Core", "HTSP.Core", "{5B989035-0769-4B40-8726-C002D66B9296}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTSP.Presentation", "HTSP.Presentation", "{D32B00A4-7B63-4D0E-8FBA-5B59F3A93F36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTSP.Interaction", "HTSP.Interaction", "{1EEE79F4-FDD9-45F1-A153-E2445ABBFDFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTSP.Tests", "HTSP.Tests", "{CC24843F-2060-4FC1-A016-EBBF98502D1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTSP.WebAPI", "HTSP.WebAPI\HTSP.WebAPI.csproj", "{B887C51C-A145-4E36-A6DA-CEE71225DB9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTSP.Interaction", "HTSP.Interaction\HTSP.Interaction.csproj", "{677A1F4D-AD43-4106-8E83-5ACE1D71B51E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTSP.Application", "HTSP.Application\HTSP.Application.csproj", "{F598EE1F-99CD-4ED7-8D57-8A19DF731AE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTSP.Domain", "HTSP.Domain\HTSP.Domain.csproj", "{8AF0B522-4137-41E4-BA7E-8AE8C92BCA71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B887C51C-A145-4E36-A6DA-CEE71225DB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B887C51C-A145-4E36-A6DA-CEE71225DB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B887C51C-A145-4E36-A6DA-CEE71225DB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B887C51C-A145-4E36-A6DA-CEE71225DB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677A1F4D-AD43-4106-8E83-5ACE1D71B51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677A1F4D-AD43-4106-8E83-5ACE1D71B51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677A1F4D-AD43-4106-8E83-5ACE1D71B51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677A1F4D-AD43-4106-8E83-5ACE1D71B51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F598EE1F-99CD-4ED7-8D57-8A19DF731AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F598EE1F-99CD-4ED7-8D57-8A19DF731AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F598EE1F-99CD-4ED7-8D57-8A19DF731AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F598EE1F-99CD-4ED7-8D57-8A19DF731AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF0B522-4137-41E4-BA7E-8AE8C92BCA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF0B522-4137-41E4-BA7E-8AE8C92BCA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF0B522-4137-41E4-BA7E-8AE8C92BCA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF0B522-4137-41E4-BA7E-8AE8C92BCA71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B887C51C-A145-4E36-A6DA-CEE71225DB9C} = {D32B00A4-7B63-4D0E-8FBA-5B59F3A93F36}
+		{677A1F4D-AD43-4106-8E83-5ACE1D71B51E} = {1EEE79F4-FDD9-45F1-A153-E2445ABBFDFE}
+		{F598EE1F-99CD-4ED7-8D57-8A19DF731AE1} = {5B989035-0769-4B40-8726-C002D66B9296}
+		{8AF0B522-4137-41E4-BA7E-8AE8C92BCA71} = {5B989035-0769-4B40-8726-C002D66B9296}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F23330AD-0A98-4375-9398-13ED7C9C768A}
+	EndGlobalSection
+EndGlobal
